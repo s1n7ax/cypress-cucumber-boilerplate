@@ -1,0 +1,16 @@
+{
+  "name": "cypress-cucumber-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:s1n7ax/cypress-cucumber-boilerplate.git",
+  "author": "s1n7ax <srineshnisala@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cypress": "^6.2.1",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
